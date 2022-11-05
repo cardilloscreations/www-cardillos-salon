@@ -1,0 +1,88 @@
+#
+# Sera - OnePage Jekyll Theme
+# Configuration File
+#
+
+# Information for compile
+exclude: ["Gemfile", "CNAME", "LICENSE", "README.md", "AUTHORING.md"]
+
+# Sass configuration
+sass:
+  sass_dir: _scss
+
+# Information for deploy
+baseurl: ""
+
+# the base hostname & protocol for your site
+url: "https://cardillos.salon"
+
+####################################
+######   Optional Features    ######
+####################################
+smooth-scroll: false
+
+####################################
+###########   Plugins    ###########
+####################################
+plugins:
+  - jekyll-archives
+
+jekyll-archives:
+  enabled:
+    - categories
+    - tags
+  layout: "archive"
+  permalinks:
+    category: "/category/:name/"
+    tag: "/tag/:name/"
+
+#######################################################
+#######################################################
+###############   HEADER INFORMATION   ###############
+#######################################################
+#######################################################
+
+# This is your site title
+title: Cardillo's Salon
+# Website language
+lang: en-US
+# Header Title
+header-title: Cardillo's Salon
+# Header Tagline
+header-tagline: Lisa Cardillo's Hair Salon
+
+#
+# This is your email adress, contact from send here all emails from contact section
+# IMPORTANT: you can modify contact form from this static template, but now works contact form works with a free external server
+# To configure this contact form, first please send a fictive email afeter you enter below your email and verify that :)
+#
+email: hello@cardillos.salon
+
+####################################
+######  Global Social Links   ######
+####################################
+facebook: "https://www.facebook.com/Cardillos.Salon/"
+instagram: "https://www.instagram.com/Cardillos.Salon/"
+
+#########################
+######   Widgets   ######
+#########################
+
+#####################################
+#############   About   #############
+#####################################
+about-title: About Us
+about-description-short: Cardillo's Salon is operated by Lisa Cardillo.
+about-description-long: >
+  Lisa Cardillo is a master hair stylist and colorist. She currently runs
+  <a href="https://toughlove.salon">Tough Love Salon</a> in Severna Park, MD and
+  travels there weekly. This website is for the new shop that she is opening in
+  the Central Florida area alongside her husband at
+  <a href="https://cardilloscorner.com">Cardillo's Corner</a>.
+
+#####################################
+#############   Footer   ############
+#####################################
+footer-description: Find Cardillo's Salon on all of your favorite sites.
+footer-copyright-text: Cardillo's Corner, LLC
+footer-copyright-year: 2022
